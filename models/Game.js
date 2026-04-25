@@ -73,7 +73,7 @@ const gameSchema = new mongoose.Schema(
       trim: true,
       default: "",
     },
-    anioLanzamiento: {
+    AñoLanzamiento: {
       type: Number,
       min: [1970, "Año inválido"],
       max: [new Date().getFullYear() + 2, "Año inválido"],
